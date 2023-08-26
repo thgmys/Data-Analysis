@@ -1,0 +1,24 @@
+steps for logistic regression
+
+step 1
+import modules
+
+step 2
+generate dataset
+
+step 3
+visualise data
+
+step 4
+split the dataset
+
+step 5
+logistic regression
+
+step 6
+make prediction  using model 
+
+step 7
+display confusion matrix
+
+

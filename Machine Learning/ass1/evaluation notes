@@ -1,0 +1,21 @@
+Choice of regression
+
+For regression problems we used mean square error for model tuning using cross validation
+but other methods are possible
+
+ROC curve is a plot of true positive rates to false positive rate
+For modeltuning a single valueis preferred ratherthan a curve.
+Area under the curve
+Ideal classifier AUC=1
+random classifier AUC=0.5
+
+cross_val_score(model, X, y, cv=5, scoring=’f1’) ; specify scoring used
+
+Model selection - use cross validation
+Model Assessment -
+∗ When assessing a model we can use multiple different metrics to capture different aspects of final system e.g. time taken to generate prediction, whether accuracy of prediction changes over time, revenue, user satisfaction.
+∗ Using a baseline for comparison (important!)
+
+Best practice is to divide data into 2parts
+Training data used for model selection
+Test data used to assess prediction
